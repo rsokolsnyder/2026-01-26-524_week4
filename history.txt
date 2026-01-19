@@ -1,38 +1,40 @@
-  566  pwd
-  567  git clone git@github.com:chendaniely/2026-01-12-pytest.git
-  568  cd 2026-01-12-pytest/
-  569  positron .
-  
-  572  conda activate base
-  573  conda env create -f environment.yml
-  574  conda activate pytest1
-  575  which copier
-  576  copier copy gh:pyopensci/pyos-package-template .
-  577  python
-  578  pip install -e .
-  579  python
-  580  pytest
+
+  578  git clone git@github.com:chendaniely/2026-01-19-524_week3.git
+  579  cd 2026-01-19-524_week3/
+  580  positron .
   581  git status
   582  git add .
-  583  git commit -m "initial starting package"
-  584  pip install -e ".[test]"
-  585  pip install -e ".[tests]"
-  586  pytest
-  587  pytest
-  588  git status
-  589  git add .
-  590  git commit -m "add new test to add_numbers"
-  591  git push origin main
-  592  pytest
-  593  pytest
-  594  pytest
-  595  pytest
-  596  pytest
-  597  pytest
-  598  pytest --cov
-  599  pytest --cov --cov-branch
-  600  git status
-  601  git add .
-  602  git commit -m "countchar fxn and test"
-  603  git push origin main
-  604  history > history.txt
+  583  git status
+  584  git commit -m "my first workflow"
+  585  git push origin main
+  586  pytest --cov --cov-report=term --cov-branch
+  587  git status
+  588  git add .
+  589  git commit -m "run pytest"
+  590  git push origin main
+  591  git commit -am "change job name"
+  592  git push origin main
+  593  git add .
+  594  git commit -m "add stuff without testing"
+  595  git push origin main
+  596  git status
+  597  git add .
+  598  git commit -m "add matrix"
+  599  git push origin main
+  600  git add .
+  601  git commit --staged
+  602  git diff --staged
+  603  git commit -m "fix bug"
+  604  git status
+  605  git commit -am "add os matrix"
+  606  git push origin main
+  607  pip install -e .[docs,tests]
+  608  which quartodoc
+  609  quartodoc build
+  610  quartodoc build
+  611  quarto preview
+  612  git status
+  613  git add .
+  614  git commit -m "quartodoc with quartodoc only"
+  615  git push origin main
+  616  history > history.txt
