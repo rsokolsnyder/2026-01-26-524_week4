@@ -28,7 +28,7 @@ jobs:
           pytest --cov --cov-report=term --cov-branch
 
   pypi-test:
-    needs: test
+    needs: unit-test-pytest
     runs-on: ubuntu-latest
     
     steps:
