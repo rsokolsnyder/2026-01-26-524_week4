@@ -1,0 +1,21 @@
+---
+title: "Tutorial"
+---
+
+How to use my package:
+
+```{python}
+#from pytest1.countchar import count_char
+
+from pytest1.countchar.count_char import count_char
+count_char('hello')
+
+import pytest1
+
+pytest1.count_char('hello')
+
+import pytest1 as pt1
+pt1.count_char('hello')
+
+```
+

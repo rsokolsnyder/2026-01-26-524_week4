@@ -57,7 +57,8 @@ tests = [
 ]
 
 docs = [
-    "quartodoc"
+    "quartodoc",
+    "jupyter",
 ]
 
 dev = [
