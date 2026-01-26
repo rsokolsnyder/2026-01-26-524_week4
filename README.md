@@ -1,6 +1,5 @@
-# 2026-01-12-pytest
+# 2026-01-26-pytest
 
-Example demo/live code repo for UBC DSCI 524 Week 3 (ci/cd + documentation)
 
 ## Lecture 1
 
