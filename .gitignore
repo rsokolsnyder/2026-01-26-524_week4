@@ -2,6 +2,7 @@ _site
 docs
 reference
 objects.json
+src/pytest1/__version__.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
