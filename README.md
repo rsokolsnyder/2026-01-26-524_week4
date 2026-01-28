@@ -34,3 +34,14 @@ badges and external CI/CD tools:
     - badge
         - configuration page there's a badge + graphs section
         - copy the markdown badge (we are using quarto + quartodoc, rst is for sphinx)
+
+- website deployment previews
+    - https://www.netlify.com/
+    - you may be asked to install app after you connect with github
+    - deploy new project from github (may trigger app install here)
+    - use a random project name for now (it's a deployment preview, don't clutter the namespace if you don't need to)
+    - leave everything else blank, we will push from github actions
+    - NETLIFY_AUTH_TOKEN: this is the Netlify PAT
+    - NETLIFY_SITE_ID: you can find tihs in the Netlify website configuration page
+    - use the example yaml file, note that it's PR only (why does this make sense?)
+    - workflow needs read+right permissions
