@@ -1,4 +1,4 @@
-name: publish-test-pypi
+name: deploy (pytest only)
 
 on:
   push:
